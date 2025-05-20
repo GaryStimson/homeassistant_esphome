@@ -3,9 +3,10 @@ substitutions:
   friendly_name: M5-Kitchen
   micro_wake_word_model: okay_nabu  # alexa, hey_jarvis, hey_mycroft are also supported
 
-external_components:
-  - source: github://esphome/esphome@2025.3.3
-    components: [psram]
+#psram not more needed since ESPHome version 2025.4.2
+#external_components:
+#  - source: github://esphome/esphome@2025.3.3
+#    components: [psram]
 
 # globals:
 #   # Global variable storing if conversation need a reply
